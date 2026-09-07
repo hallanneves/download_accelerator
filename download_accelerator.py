@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Required Notice: Copyright 2026 Hallan Neves (https://github.com/hallanneves/download_accelerator)
+# Licensed under the PolyForm Noncommercial License 1.0.0. See LICENSE.md.
 """
 Acelerador de download: abre varias conexoes HTTP em paralelo (Range requests),
 cada uma baixa um pedaco do arquivo e escreve direto na posicao certa do

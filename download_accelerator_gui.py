@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Required Notice: Copyright 2026 Hallan Neves (https://github.com/hallanneves/download_accelerator)
+# Licensed under the PolyForm Noncommercial License 1.0.0. See LICENSE.md.
 """
 Interface grafica do acelerador de download, no estilo do macOS.
 

@@ -73,3 +73,9 @@ python3 download_accelerator.py \
 | `assets/icon.svg`, `assets/icon.icns` | Ícone do app. |
 
 Testado com Python 3.14 (Homebrew, Tk 9.0) e Python 3.9 (Apple, Tk 8.5) no macOS 26.
+
+## Licença
+
+[PolyForm Noncommercial 1.0.0](LICENSE.md). Pode usar, copiar, modificar e redistribuir para qualquer fim não comercial: uso pessoal, pesquisa, ensino, organizações sem fins lucrativos e órgãos públicos. Uso comercial não é permitido sem autorização do autor.
+
+Required Notice: Copyright 2026 Hallan Neves (https://github.com/hallanneves/download_accelerator)
