@@ -32,7 +32,9 @@ Ou use o Python da Apple, que já tem Tkinter: `/usr/bin/python3 download_accele
 
 ### App para o macOS
 
-`build_app.sh` empacota a interface com o PyInstaller e instala em `/Applications/Download Accelerator.app`, com ícone próprio e sem depender do Python instalado.
+Pronto para usar: baixe o `.zip` da [última release](https://github.com/hallanneves/download_accelerator/releases/latest), descompacte e arraste o `Download Accelerator.app` para a pasta Aplicativos. Na primeira abertura o macOS avisa que não conseguiu verificar o app, porque ele não é assinado com certificado da Apple. Vá em Ajustes do Sistema, Privacidade e Segurança, e clique em "Abrir Mesmo Assim".
+
+Para gerar o app a partir do código, `build_app.sh` empacota a interface com o PyInstaller, instala em `/Applications/Download Accelerator.app` e deixa o `.zip` da release em `dist/`.
 
 ```
 ./build_app.sh

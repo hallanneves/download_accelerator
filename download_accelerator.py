@@ -37,7 +37,9 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-USER_AGENT = "download-accelerator/2.0"
+__version__ = "0.1.0"
+
+USER_AGENT = f"download-accelerator/{__version__}"
 READ_BUFFER = 256 * 1024      # 256 KiB por leitura de socket
 STATE_SAVE_INTERVAL = 1.0     # segundos entre gravacoes do arquivo de estado
 STATE_VERSION = 1
@@ -577,6 +579,7 @@ def main():
     ap.add_argument("--retries", type=int, default=5, help="tentativas por pedaco")
     ap.add_argument("--sha256", help="hash esperado; verifica ao final")
     ap.add_argument("--no-resume", action="store_true", help="ignora um .part existente e recomeca do zero")
+    ap.add_argument("--version", action="version", version=f"download_accelerator {__version__}")
     args = ap.parse_args()
     if args.connections < 1:
         ap.error("-n precisa ser >= 1")

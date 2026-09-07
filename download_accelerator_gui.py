@@ -287,6 +287,7 @@ class App:
 
         self._build(url)
         self._render_history()
+        self._log(f"{APP_NAME} {dl.__version__}")
         self.root.protocol("WM_DELETE_WINDOW", self._on_close)
         try:
             self.root.createcommand("::tk::mac::Quit", self._on_close)  # Cmd+Q tambem salva
