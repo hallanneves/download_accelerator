@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d9cff"/>
+      <stop offset="1" stop-color="#0a5fd6"/>
+    </linearGradient>
+  </defs>
+  <!-- fundo arredondado no grid de icones do macOS (margem ~10%) -->
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)"/>
+  <!-- tres fluxos descendo e convergindo -->
+  <g stroke="#ffffff" stroke-width="44" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M352 300 L352 430"/>
+    <path d="M672 300 L672 430"/>
+  </g>
+  <!-- seta principal -->
+  <g stroke="#ffffff" stroke-width="64" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M512 290 L512 640"/>
+    <path d="M372 520 L512 660 L652 520"/>
+  </g>
+  <!-- bandeja -->
+  <path d="M292 720 L292 770 Q292 800 322 800 L702 800 Q732 800 732 770 L732 720"
+        stroke="#ffffff" stroke-width="56" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
